@@ -1,3 +1,3 @@
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
+const {v4 : uuid} = require('uuid');
+
+console.log(uuid());
